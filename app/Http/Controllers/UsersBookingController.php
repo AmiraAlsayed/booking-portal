@@ -9,6 +9,10 @@ use App\User;
 use Illuminate\Http\Request;
 use Validator;
 
+/**
+ * Class UsersBookingController
+ * @package App\Http\Controllers
+ */
 class UsersBookingController extends AbstractController
 {
 

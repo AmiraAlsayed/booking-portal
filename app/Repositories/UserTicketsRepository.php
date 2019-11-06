@@ -4,6 +4,10 @@ namespace App\Repositories;
 
 use App\UserTickets;
 
+/**
+ * Class UserTicketsRepository
+ * @package App\Repositories
+ */
 class UserTicketsRepository extends BaseRepository
 {
     /**

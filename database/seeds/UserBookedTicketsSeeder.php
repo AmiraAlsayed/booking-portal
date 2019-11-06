@@ -11,6 +11,6 @@ class UserBookedTicketsSeeder extends Seeder
      */
     public function run()
     {
-        factory(\App\UserTickets::class, 1)->create();
+        factory(\App\UserTickets::class, 10)->create();
     }
 }

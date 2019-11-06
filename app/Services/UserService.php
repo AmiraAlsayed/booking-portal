@@ -5,6 +5,10 @@ use Validator;
 use App\Repositories\UsersRepository;
 use Illuminate\Http\Request;
 
+/**
+ * Class UserService
+ * @package App\Services
+ */
 class UserService extends BaseService {
 
     public $repository;

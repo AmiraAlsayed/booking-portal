@@ -6,8 +6,15 @@ use Illuminate\Validation\ValidationException;
 use Validator;
 use App\Repositories\UserTicketsRepository;
 
+/**
+ * Class UserTicketsService
+ * @package App\Services
+ */
 class UserTicketsService extends BaseService {
 
+    /**
+     * @var UserTicketsRepository
+     */
     public $repository;
 
     /**
