@@ -13,7 +13,7 @@ After it's done you now should be able to use it.
 To start working with the seeders, your need to run the migration files first by `php artisan migrate`, then you can seed it by `php artisan db:seed`.
 
 In the UserBookedTicketsSeeder you will write the number of records you need, and you will notice that it's using the UserBookedTicketsFactory in which:
-The tickets seeded has 2 types which are those 2 provided in the database, you can comment and uncomment the type you wich to seed.
+The tickets seeded has 2 types which are those 2 provided in the task email, you can comment and uncomment the type you wish to seed.
 
 Project Structure:
 ------------------
